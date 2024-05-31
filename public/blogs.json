@@ -3,98 +3,98 @@
         "id": 1,
         "title": "To Kill a Mockingbird",
         "description": "A novel by Harper Lee published in 1960. It is widely studied in schools and deals with serious issues of race and rape.",
-        "image": "https://example.com/tokillamockingbird.jpg",
+        "image": "https://i.ibb.co/47Rqnx9/joshua-earle-9idq-IGr-Lu-TE-unsplash.jpg",
         "rating": 5
     },
     {
         "id": 2,
         "title": "1984",
         "description": "A dystopian novel by George Orwell that explores the dangers of totalitarianism.",
-        "image": "https://example.com/1984.jpg",
+        "image": "https://i.ibb.co/zNpgX47/6062.jpg",
         "rating": 5
     },
     {
         "id": 3,
         "title": "The Shawshank Redemption",
         "description": "A 1994 drama film about a man sentenced to life in prison for a crime he didn't commit.",
-        "image": "https://example.com/shawshank.jpg",
+        "image": "https://i.ibb.co/XV7GfJV/2150165162.jpg",
         "rating": 5
     },
     {
         "id": 4,
         "title": "The Godfather",
         "description": "A 1972 crime film directed by Francis Ford Coppola, based on the novel of the same name by Mario Puzo.",
-        "image": "https://example.com/godfather.jpg",
+        "image": "https://i.ibb.co/pPyjrb4/1050264-7096.jpg",
         "rating": 5
     },
     {
         "id": 5,
         "title": "Chez Panisse",
         "description": "A Berkeley, California restaurant known for its organic, locally sourced ingredients.",
-        "image": "https://example.com/chezpanisse.jpg",
+        "image": "https://i.ibb.co/L0Fy42n/2148533453.jpg",
         "rating": 5
     },
     {
         "id": 6,
         "title": "Noma",
         "description": "A Copenhagen restaurant known for its reinvention and interpretation of Nordic cuisine.",
-        "image": "https://example.com/noma.jpg",
+        "image": "https://i.ibb.co/FJwvfTm/2149164339.jpg",
         "rating": 5
     },
     {
         "id": 7,
         "title": "iPhone 13",
         "description": "The latest model of Apple's iPhone with improved camera and battery life.",
-        "image": "https://example.com/iphone13.jpg",
+        "image": "https://i.ibb.co/tzCYHyJ/42439.jpg",
         "rating": 4
     },
     {
         "id": 8,
         "title": "Samsung Galaxy S21",
         "description": "Samsung's flagship smartphone with a powerful processor and high-quality camera.",
-        "image": "https://example.com/galaxys21.jpg",
+        "image": "https://i.ibb.co/mhtMm4s/125055.jpg",
         "rating": 4
     },
     {
         "id": 9,
         "title": "The Legend of Zelda: Breath of the Wild",
         "description": "An action-adventure game developed and published by Nintendo.",
-        "image": "https://example.com/zelda.jpg",
+        "image": "https://i.ibb.co/tQJyTpL/164212.jpg",
         "rating": 5
     },
     {
         "id": 10,
         "title": "Red Dead Redemption 2",
         "description": "An open world Western-themed action-adventure game developed and published by Rockstar Games.",
-        "image": "https://example.com/reddead2.jpg",
+        "image": "https://i.ibb.co/K6jk1Tc/2147770898.jpg",
         "rating": 5
     },
     {
         "id": 11,
         "title": "Paris, France",
         "description": "The capital city of France, known for its art, gastronomy, and culture.",
-        "image": "https://example.com/paris.jpg",
+        "image": "https://i.ibb.co/4RFVtZR/2149580613.jpg",
         "rating": 5
     },
     {
         "id": 12,
         "title": "Kyoto, Japan",
         "description": "A city on the island of Honshu, known for its classical Buddhist temples, as well as gardens, imperial palaces, Shinto shrines, and traditional wooden houses.",
-        "image": "https://example.com/kyoto.jpg",
+        "image": "https://i.ibb.co/tCKkPkt/2147956506.jpg",
         "rating": 5
     },
     {
         "id": 13,
         "title": "Global Warming: A Real Threat",
         "description": "An article discussing the impacts and future risks of global warming on the environment.",
-        "image": "https://example.com/globalwarming.jpg",
+        "image": "https://i.ibb.co/XCgHYM9/Screenshot-from-2024-03-05-18-46-09.png",
         "rating": 4
     },
     {
         "id": 14,
         "title": "Advancements in AI Technology",
         "description": "A look into the recent advancements in artificial intelligence and its implications for the future.",
-        "image": "https://example.com/ai.jpg",
+        "image": "https://i.ibb.co/XV7GfJV/2150165162.jpg",
         "rating": 5
     }
 ]
