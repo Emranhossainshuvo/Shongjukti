@@ -1,6 +1,8 @@
+import PropTypes from 'prop-types'
 
 const BlogCard = ({blog}) => {
 
+    const {title, description, image, rating} = blog || {} ;
 
     return (
         <>
@@ -28,7 +30,7 @@ const BlogCard = ({blog}) => {
                 <div className="p-6">
                     <div className="flex items-center justify-between mb-3">
                         <h5 className="block font-sans text-xl antialiased font-medium leading-snug tracking-normal text-blue-gray-900">
-                            Wooden House, Florida
+                            {title}
                         </h5>
                         <p
                             className="flex items-center gap-1.5 font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased">
@@ -42,8 +44,7 @@ const BlogCard = ({blog}) => {
                         </p>
                     </div>
                     <p className="block font-sans text-base antialiased font-light leading-relaxed text-gray-700">
-                        Enter a freshly updated and thoughtfully furnished peaceful home
-                        surrounded by ancient trees, stone walls, and open meadows.
+                        {description}
                     </p>
 
                 </div>
@@ -51,7 +52,7 @@ const BlogCard = ({blog}) => {
                     <button
                         className="block w-full select-none rounded-lg bg-gray-900 py-3.5 px-7 text-center align-middle font-sans text-sm font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                         type="button">
-                        Reserve
+                        View
                     </button>
                 </div>
             </div>
@@ -60,3 +61,7 @@ const BlogCard = ({blog}) => {
 };
 
 export default BlogCard;
+
+BlogCard.propTypes = {
+    blog: PropTypes.array
+}

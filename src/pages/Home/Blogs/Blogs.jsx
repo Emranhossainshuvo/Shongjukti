@@ -16,12 +16,14 @@ const Blogs = () => {
 
     return (
         <>
-            {
-              blogs.map(blog => <BlogCard
-              key={blog.id}
-              blog={blog}
-              ></BlogCard>)  
-            }
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-10'>
+                {
+                    blogs.map(blog => <BlogCard
+                        key={blog.id}
+                        blog={blog}
+                    ></BlogCard>)
+                }
+            </div>
         </>
     );
 };
