@@ -1,15 +1,25 @@
 import PropTypes from 'prop-types'
 
-const BlogCard = ({blog}) => {
+const BlogCard = ({ blog }) => {
 
-    const {title, description, image, rating} = blog || {} ;
+    const { title, description, image, rating } = blog || {};
+
+    const truncateDescription = (description) => {
+        const words = description.split(' ');
+        if (words.length > 10) {
+            return words.slice(0, 10).join(' ') + '...';
+        }
+        return description;
+    }
 
     return (
+
+
         <>
             <div className="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
                 <div
                     className="relative mx-4 mt-4 overflow-hidden text-white shadow-lg rounded-xl bg-blue-gray-500 bg-clip-border shadow-blue-gray-500/40">
-                    <img
+                    <img className='w-full h-[25vh]'
                         src={image} />
                     <div
                         className="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-tr from-transparent via-transparent to-black/60">
@@ -43,7 +53,7 @@ const BlogCard = ({blog}) => {
                         </p>
                     </div>
                     <p className="block font-sans text-base antialiased font-light leading-relaxed text-gray-700">
-                        {description}
+                        {truncateDescription(description)}
                     </p>
 
                 </div>

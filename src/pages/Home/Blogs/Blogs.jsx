@@ -16,7 +16,7 @@ const Blogs = () => {
 
     return (
         <>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-10'>
+            <div className='grid md:gap-2 gap-1 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-10'>
                 {
                     blogs.map(blog => <BlogCard
                         key={blog.id}
