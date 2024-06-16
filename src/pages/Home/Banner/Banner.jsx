@@ -6,7 +6,6 @@ import { Navigation } from 'swiper/modules';
 
 const Banner = () => {
 
-
     return (
         <>
             <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
