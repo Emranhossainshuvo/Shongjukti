@@ -1,10 +1,11 @@
 import { useContext } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Providers/AuthProvider";
 
 const Register = () => {
 
-    const {createUser} = useContext(AuthContext)
+    const {createUser} = useContext(AuthContext); 
+    const navigate = useNavigate();
 
 
     const handleSubmit =(e) => {
@@ -19,6 +20,7 @@ const Register = () => {
         .then(result => {
             const user = result.user;
             console.log(user)
+            navigate("/")
         })
         
     }
