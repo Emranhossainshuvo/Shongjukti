@@ -1,10 +1,26 @@
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../Providers/AuthProvider";
 
 const Register = () => {
 
+    const {createUser} = useContext(AuthContext)
+
+
     const handleSubmit =(e) => {
         e.preventDefault();
-        console.log('handle')
+
+        const form = e.target; 
+        const name = form.name.value;
+        const email = form.email.value;
+        const password = form.password.value;
+        const file = form.file.value;
+        createUser(email, password)
+        .then(result => {
+            const user = result.user;
+            console.log(user)
+        })
+        
     }
 
 
@@ -13,10 +29,10 @@ const Register = () => {
             <h3 className="text-center text-3xl font-semibold mb-2 mt-3">Talks chat</h3>
             <p className="text-center mb-4 text-xl font-semibold">Register</p>
             <form onSubmit={handleSubmit} className="flex flex-col gap-7 px-10">
-                <input placeholder="Name" className="h-10 ps-3 outline-none rounded-md" type="text" name="" id="" />
-                <input placeholder="Email" className="h-10 ps-3 outline-none rounded-md" type="email" name="" id="" />
-                <input placeholder="Password" className="h-10 ps-3 outline-none rounded-md" type="password" name="" id="" />
-                <input placeholder="" className="h-10 ps-3 rounded-md" type="file" style={{ display: "none" }} name="" id="file" />
+                <input placeholder="Name" className="h-10 ps-3 outline-none rounded-md" type="text" name="name" id="" />
+                <input placeholder="Email" className="h-10 ps-3 outline-none rounded-md" type="email" name="email" id="" />
+                <input placeholder="Password" className="h-10 ps-3 outline-none rounded-md" type="password" name="password" id="" />
+                <input placeholder="" className="h-10 ps-3 rounded-md" type="file" style={{ display: "none" }} name="file" id="file" />
                 <label className=" cursor-pointer flex gap-2 justify-start items-center" htmlFor="file">
                     <img src="https://i.ibb.co/Yb1GxFc/icons8-image-30.png" alt="" />
                     <p className="text-lg font-semibold">
