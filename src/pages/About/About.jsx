@@ -11,13 +11,13 @@ const About = () => {
                 <div>
                     <div className="flex flex-col sm:flex-row md:flex-row px-[2%] sm:px-[5%] lg:px-[8%] mt-28 gap-10">
                         <img
-                            src={`https://i.ibb.co/tQJyTpL/164212.jpg`}
+                            src={`https://i.ibb.co/rQfV9ML/IMG-20231209-080753-removebg-3-removebg-preview.png`}
                             alt=""
                             className="w-[410px] md:w-[300px] rounded-md object-cover border-t-8 border-l-8 border-sky-900 transition delay-150 duration-300 ease-in-out hover:scale-90"
                         />
                         <div>
                             <h2 className="text-xl md:text-2xl lg:text-4xl font-bold  text-sky-800">
-                                Join with best fitness coach
+                                Hello and welcome to Shongjukti
                             </h2>
                             <p className="max-w-xl py-7 text-sm">
                                 Our personal trainers can help you meet your fitness goals. They can
@@ -70,7 +70,7 @@ const About = () => {
                         </p>
                     </div>
                     <img
-                        src={`https://i.ibb.co/tQJyTpL/164212.jpg`}
+                        src={`https://i.ibb.co/pK09t9s/luca-bravo-XJXWbf-So2f0-unsplash.jpg`}
                         alt=""
                         className="md:w-[500px] rounded-md object-cover transition delay-150 duration-300 ease-in-out hover:scale-90 border-b-8 border-r-8 border-sky-800"
                     />
